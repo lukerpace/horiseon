@@ -75,8 +75,11 @@ p {
     margin-left: 20px;
 }
 
+/*combined the .benefit-lead, .benefit-brand, .benefit-cost attributes into .benefits*/
 .benefits {
     margin-right: 20px;
+    margin-bottom: 32px;
+    color: #ffffff;
     padding: 20px;
     clear: both;
     float: right;
@@ -86,14 +89,8 @@ p {
     background-color: #2589bd;
 }
 
-/*combined the .benefit-lead, .benefit-brand, .benefit-cost attributes into .benefits becauase they had the same properties*/
-.benefits {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-/*the h3 elements could be defined with just h3 to, apply properties to all.*/
- h3  {
+/*the h3 elements could be defined together with just h3.*/
+.h3  {
     margin-bottom: 10px;
     text-align: center;
 }
