@@ -40,7 +40,7 @@ body {
     display: inline-block;
     margin-left: 25px;
 }
-
+     
 a {
     color: #ffffff;
     text-decoration: none;
@@ -86,9 +86,8 @@ p {
     background-color: #2589bd;
 }
 
-/*combined the .benefit-lead, .benefit-brand, .benefit-cost attributes becauase they had the same properties*/
-/*To do: find a way to simplify code further if possible*/
-.benefit-lead, .benefit-brand, .benefit-cost {
+/*combined the .benefit-lead, .benefit-brand, .benefit-cost attributes into .benefits becauase they had the same properties*/
+.benefits {
     margin-bottom: 32px;
     color: #ffffff;
 }
@@ -100,7 +99,8 @@ p {
 }
 
 /*to do: find a way to simplify code further */
-.benefit-lead img, .benefit-brand img, .benefit-cost img {
+/*combined the 3 benefit img elements into .benefits img */
+.benefits img{
     display: block;
     margin: 10px auto;
     max-width: 150px;
@@ -134,3 +134,5 @@ p {
 .footer h2 {
     font-size: 20px;
 }
+
+/*.benefit-lead, .benefit-brand, .benefit-cost
