@@ -86,16 +86,20 @@ p {
     background-color: #2589bd;
 }
 
+/*combined the .benefit-lead, .benefit-brand, .benefit-cost attributes becauase they had the same properties*/
+/*To do: find a way to simplify code further if possible*/
 .benefit-lead, .benefit-brand, .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-lead h3, .benefit-brand h3, .benefit-cost h3  {
+/*the h3 elements could be defined with just h3 to, apply properties to all.*/
+ h3  {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/*to do: find a way to simplify code further */
 .benefit-lead img, .benefit-brand img, .benefit-cost img {
     display: block;
     margin: 10px auto;
